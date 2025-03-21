@@ -1,8 +1,12 @@
 # Cloud Native CI/CD Project
 
-This repository contains the infrastructure code and application code for a cloud-native CI/CD pipeline using Tekton on Kubernetes.
+This repository contains a cloud-native CI/CD pipeline implementation using:
+- Tekton for CI pipeline
+- FastAPI and Django services
+- Azure Container Registry
+- Azure Kubernetes Service
 
 ## Structure
 - `src/django`: Django login service
-- `fastapi-p4`: FastAPI LLM service
+- `fastapi-p4`: FastAPI LLM service 
 - `tekton`: Tekton pipeline configurations
